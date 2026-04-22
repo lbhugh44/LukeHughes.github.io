@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luke Hughes | About Me</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { overflow: hidden; height: 100vh; display: flex; flex-direction: column; margin: 0; }
+    .site-header { flex-shrink: 0; }
+    .banner { height: 240px !important; object-position: 50% 35% !important; }
+    .nav-bar { height: 48px !important; padding: 0 30px !important; }
+    .content-grid { flex: 1; display: grid; grid-template-columns: 190px 1fr 270px; overflow: hidden; }
+    .col-photo { background: var(--carolina-blue-dark); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 12px; gap: 8px; }
+    .about-photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid white; box-shadow: 0 3px 12px rgba(0,0,0,0.25); }
+    .about-photo-name { font-family: 'Cormorant Garamond', serif; font-size: 1rem; font-weight: 600; color: white; text-align: center; margin: 4px 0 0 0; }
+    .about-photo-title { font-size: 0.62rem; color: rgba(255,255,255,0.8); letter-spacing: 0.1em; text-transform: uppercase; text-align: center; line-height: 1.5; margin: 0; }
+    .col-bio { background: var(--white); padding: 18px 20px; overflow: hidden; border-right: 1px solid var(--border); display: flex; flex-direction: column; }
+    .col-bio h1 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 600; color: var(--carolina-blue-dark); margin: 0 0 2px 0; }
+    .col-bio .subtitle { font-size: 0.60rem; letter-spacing: 0.10em; text-transform: uppercase; color: var(--carolina-blue); font-weight: 700; margin: 0 0 8px 0; }
+    .col-bio p { font-size: 0.68rem; line-height: 1.55; color: var(--text-mid); margin: 0 0 6px 0; }
+    .col-quotes { background: var(--off-white); padding: 18px 16px; overflow: hidden; display: flex; flex-direction: column; gap: 9px; }
+    .quote-label { font-size: 0.56rem; letter-spacing: 0.10em; text-transform: uppercase; font-weight: 700; color: var(--carolina-blue); line-height: 1.35; margin: 0 0 2px 0; }
+    .quote-box { background: white; border-left: 3px solid var(--carolina-blue); padding: 9px 11px; box-shadow: 0 2px 6px rgba(75,156,211,0.08); border-radius: 0 3px 3px 0; }
+    .quote-text { font-family: 'Cormorant Garamond', serif; font-size: 0.76rem; font-style: italic; color: var(--text-dark); line-height: 1.42; margin: 0 0 4px 0; }
+    .quote-attr { font-size: 0.55rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--carolina-blue-dark); margin: 0; }
+    footer { flex-shrink: 0; margin-top: 0 !important; padding: 14px 20px !important; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <img class="banner" src="unc_well.jpg" alt="The Old Well at UNC Chapel Hill" />
+    <nav class="nav-bar">
+      <a href="index.html" class="active">About Me</a>
+      <a href="resume.html">Résumé</a>
+      <a href="research.html">Research</a>
+      <a href="linkedin.html">LinkedIn</a>
+    </nav>
+  </header>
+
+  <div class="content-grid">
+
+    <div class="col-photo">
+      <img class="about-photo" src="headshot.jpg" alt="Luke Hughes" />
+      <p class="about-photo-name">Luke Hughes</p>
+      <p class="about-photo-title">University of<br />North Carolina<br />at Chapel Hill<br />Class of 2029</p>
+    </div>
+
+    <div class="col-bio">
+      <h1>About Me</h1>
+      <p class="subtitle">Student · Researcher · Aspiring Clinician</p>
+      <p>I am a freshman at the University of North Carolina at Chapel Hill pursuing a Bachelor of Science in Biology with a minor in Sports Medicine. My academic and professional interests lie at the intersection of clinical medicine and public health, where I am committed to understanding the mechanisms that drive human health outcomes and translating that knowledge into meaningful patient care. From the moment I first stepped onto Carolina's campus, I recognized this institution as a place where rigorous scholarship and compassionate service converge to produce healthcare professionals equipped to address the most pressing challenges facing contemporary medicine.</p>
+      <p>Growing up in Asheboro, North Carolina, I developed an early curiosity about the biological sciences — a curiosity that has only deepened since arriving at Carolina. My coursework in cell biology and general chemistry has provided a rigorous foundation from which to approach both the theoretical and applied dimensions of medicine. More than simply fulfilling requirements, each course has reinforced my conviction that effective healthcare demands not only technical competence, but also the capacity for critical inquiry and evidence-based reasoning. I have learned that the practice of medicine is fundamentally an exercise in problem-solving, one that requires both analytical precision and the ability to synthesize complex information from diverse sources.</p>
+      <p>Outside the classroom, I have sought opportunities to situate my academic preparation within real-world contexts. Since June 2025, I have worked as a Recreation Aid with Asheboro Parks and Recreation, where I have developed skills in public service delivery and community engagement. This role has taught me the importance of meeting people where they are and maintaining a commitment to service even in the face of logistical challenges. As an Assistant Coach and Game Operations Coordinator for the Blue Comets Youth Football Association since August 2022, I have honed my leadership abilities while contributing to the development of young athletes in my hometown. These experiences have clarified my understanding of what it means to serve as a healthcare professional and have strengthened my resolve to pursue medicine as a career.</p>
+      <p>At present, I am actively engaged in exploring research opportunities within the UNC School of Medicine. I am particularly interested in investigating the relationship between exercise physiology and chronic disease prevention, a line of inquiry that holds significant implications for public health interventions targeting underserved populations. I believe that rigorous scientific inquiry, when paired with compassionate clinical practice, represents the highest standard of contribution one can make to the field of medicine. My goal is to contribute to a body of evidence that can inform policy decisions and improve health outcomes.</p>
+      <p>Beyond academics, I value athletics and community service as means of maintaining balance and perspective. I firmly believe that the most effective clinicians and researchers are those who remain deeply connected to the communities they serve. I am grateful for the opportunities that UNC Chapel Hill continues to offer and look forward to contributing to that tradition as I advance in my training and professional development.</p>
+    </div>
+
+    <div class="col-quotes">
+      <p class="quote-label">Words That Guide My Work<br />Dr. Katalin Karikó<br />2023 Nobel Laureate</p>
+      <div class="quote-box">
+        <p class="quote-text">"Science is 99 percent challenge. You are doing things you have never done, or nobody has ever done. You don't even know if it is possible."</p>
+        <p class="quote-attr">— Dr. Katalin Karikó</p>
+      </div>
+      <div class="quote-box">
+        <p class="quote-text">"The history of science, it turns out, is filled with stories of very smart people laughing at good ideas."</p>
+        <p class="quote-attr">— Dr. Katalin Karikó</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Luke Hughes &nbsp;|&nbsp; University of North Carolina at Chapel Hill</p>
+  </footer>
+
+</body>
+</html>

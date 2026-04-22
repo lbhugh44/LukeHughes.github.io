@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luke Hughes | About Me</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { overflow: hidden; height: 100vh; display: flex; flex-direction: column; margin: 0; }
+    .site-header { flex-shrink: 0; }
+    .banner { height: 240px !important; object-position: 50% 35% !important; }
+    .nav-bar { height: 48px !important; padding: 0 30px !important; }
+    .content-grid { flex: 1; display: grid; grid-template-columns: 190px 1fr 270px; overflow: hidden; }
+    .col-photo { background: var(--carolina-blue-dark); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 12px; gap: 8px; }
+    .about-photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid white; box-shadow: 0 3px 12px rgba(0,0,0,0.25); }
+    .about-photo-name { font-family: 'Cormorant Garamond', serif; font-size: 1rem; font-weight: 600; color: white; text-align: center; margin: 4px 0 0 0; }
+    .about-photo-title { font-size: 0.62rem; color: rgba(255,255,255,0.8); letter-spacing: 0.1em; text-transform: uppercase; text-align: center; line-height: 1.5; margin: 0; }
+    .col-bio { background: var(--white); padding: 18px 20px; overflow: hidden; border-right: 1px solid var(--border); display: flex; flex-direction: column; }
+    .col-bio h1 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 600; color: var(--carolina-blue-dark); margin: 0 0 12px 0; }
+    .col-bio p { font-size: 0.68rem; line-height: 1.55; color: var(--text-mid); margin: 0 0 6px 0; }
+    .col-quotes { background: var(--off-white); padding: 18px 16px; overflow: hidden; display: flex; flex-direction: column; gap: 9px; }
+    .quote-label { font-size: 0.56rem; letter-spacing: 0.10em; text-transform: uppercase; font-weight: 700; color: var(--carolina-blue); line-height: 1.35; margin: 0 0 2px 0; }
+    .quote-box { background: white; border-left: 3px solid var(--carolina-blue); padding: 9px 11px; box-shadow: 0 2px 6px rgba(75,156,211,0.08); border-radius: 0 3px 3px 0; }
+    .quote-text { font-family: 'Cormorant Garamond', serif; font-size: 0.76rem; font-style: italic; color: var(--text-dark); line-height: 1.42; margin: 0 0 4px 0; }
+    .quote-attr { font-size: 0.55rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--carolina-blue-dark); margin: 0; }
+    .quote-source { font-size: 0.48rem; margin-top: 4px; line-height: 1.4; color: var(--text-light); }
+    .quote-source a { color: var(--carolina-blue); text-decoration: none; }
+    .quote-source a:hover { text-decoration: underline; }
+    footer { flex-shrink: 0; margin-top: 0 !important; padding: 14px 20px !important; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <img class="banner" src="unc_well.jpg" alt="The Old Well at UNC Chapel Hill" />
+    <nav class="nav-bar">
+      <a href="index.html" class="active">About Me</a>
+      <a href="resume.html">Résumé</a>
+      <a href="research.html">Research</a>
+      <a href="linkedin.html">LinkedIn</a>
+    </nav>
+  </header>
+
+  <div class="content-grid">
+
+    <div class="col-photo">
+      <img class="about-photo" src="headshot.jpg" alt="Luke Hughes" />
+      <p class="about-photo-name">Luke Hughes</p>
+      <p class="about-photo-title">University of<br />North Carolina<br />at Chapel Hill<br />Class of 2029</p>
+    </div>
+
+    <div class="col-bio">
+      <h1>About Me</h1>
+      <p>I am a freshman at the University of North Carolina at Chapel Hill pursuing a Bachelor of Science in Biology with a minor in Sports Medicine. My interest in the biomedical field emerged from an accident during my childhood in Asheboro, North Carolina. My first exposure to the medical field began when I fractured my collarbone as a young child while playing stealthy ninjas with my cousins. During recovery, I became intrinsically fascinated by how the body heals itself and by the role clinicians have in facilitating the process. Thus, my interest expanded into understanding the science behind human movement and recovering from injury.</p>
+      <p>I was able to experience this interest firsthand during my senior year of high school when I tore my anterior cruciate ligament playing football. My orthopedic surgeon performed a bone-patellar tendon-bone ACL reconstruction. Through that experience, I was introduced to the complexities of orthopedic surgery and the lengthy rehabilitation process that followed. My surgical experience and the months of physical therapy that followed enlightened me to my aspirations to become an orthopedic surgeon who specializes in athletes and facilitates their return to play.</p>
+      <p>At UNC, I continued to pursue my medical interests through CATCH, a student organization that solders and rewires toy circuits to large buttons, allowing children with motor disabilities who would otherwise be unable to play to have access. Through my work in the club, I developed a new perspective regarding what it truly means to treat an individual. I started viewing the ultimate goal of clinical care as not only being to repair injuries and mitigate damage, but to also enable patients to fully engage and participate in life. Whether enabling a disabled child to play with a toy or help return an athlete to play, treatment extends past treating symptoms and involves restoring or enhancing function.</p>
+      <p>My coursework in cell biology and general chemistry has provided me with a foundation of knowledge that facilitates my understanding of the physiological mechanisms involved in injury and recovery that interest me. These courses have allowed me to develop a research interest that integrates my personal experiences of injury and recovery with my academics. I have developed a research interest that lies in understanding how to optimize outcomes for athletes returning to play following an anterior cruciate ligament reconstruction. Specifically, I aim to investigate whether successfully achieving quadriceps strength sufficiency (≥3.0 N·m·kg⁻¹) is associated with return to normalized gait biomechanics 12 months post reconstruction. These findings could support development of rehabilitation criteria that prioritize both restoration of quadriceps strength and movement quality, thereby reducing risk of reinjury and improving long-term joint health in athletes returning to sports post ACL injury.</p>
+      <p>My goal is to become an orthopedic surgeon who not only treats injuries but also utilizes innovative surgical techniques and develops advanced quality of holistic care to ensure that athletes return to play promptly and safely. I am grateful and look forward to utilizing the abundant academic resources and research opportunities provided through UNC Chapel Hill, and I am committed to contributing to the field of orthopedics and sports medicine through the knowledge and experience that I gain here.</p>
+    </div>
+
+    <div class="col-quotes">
+      <p class="quote-label">Words That Guide My Work<br />Dr. Carol Greider<br />2009 Nobel Laureate</p>
+      <div class="quote-box">
+        <p class="quote-text">"It's fundamental knowledge that fuels practical implications."</p>
+        <p class="quote-attr">— Dr. Carol Greider</p>
+        <p class="quote-source">Source: Greider, C. W. (2016, February 19). Fundamental science fuels practical applications. <em>AAAS News</em>. <a href="https://www.aaas.org/news/carol-greider-fundamental-science-fuels-practical-applications" target="_blank">https://www.aaas.org/news/carol-greider-fundamental-science-fuels-practical-applications</a></p>
+      </div>
+      <div class="quote-box">
+        <p class="quote-text">"We propose that the novel telomere terminal transferase is involved in the addition of telomeric repeats necessary for the replication of chromosome ends in eukaryotes."</p>
+        <p class="quote-attr">— Dr. Carol Greider</p>
+        <p class="quote-source">Source: Greider, C. W., & Blackburn, E. H. (1985). Identification of a specific telomere terminal transferase activity in Tetrahymena extracts. <em>Cell</em>, 43(2), 405-413.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Luke Hughes &nbsp;|&nbsp; University of North Carolina at Chapel Hill</p>
+  </footer>
+
+</body>
+</html>
